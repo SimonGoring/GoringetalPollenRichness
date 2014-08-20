@@ -36,7 +36,7 @@ library(ggplot2)
 
 # The BC Modern Pollen dataset, with climatic information from ClimateWNA.
 #  Explained more fully in Goring et al., 2009 & 2010.
-  load('data/mpd.RData')
+  load('data/mpd.Rdata')
   pol <- mpd[[1]]
   locs <- mpd[[3]]
 
